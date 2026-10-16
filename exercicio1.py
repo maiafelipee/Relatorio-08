@@ -49,5 +49,4 @@ clerigo.set_estus(quantidade)
 
 print(clerigo.mostrar_status())
 
- # print(clerigo.__estus) unexpected indent Entendi que isso acontece porque o atributo __estus foi declarado como privado dentro da classe MortoVivo. Por isso, não consigo acessá-lo diretamente pelo objeto clerigo no main. Para consultar esse valor, preciso utilizar o método get_estus(), que foi criado justamente para retornar a quantidade de Estus. Isso é um exemplo de encapsulamento em Python, que ajuda a controlar o acesso aos atributos de uma classe.
- # (pesquisei na IA o pq)
+ # print(clerigo.__estus) 
