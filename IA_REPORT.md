@@ -56,3 +56,8 @@ print(clerigo.mostrar_status())
  Chatgpt pq esse erro de unexpected indent ocorre quando eu tiro a #? nao entendi
 
  Como a linha está comentada, ela não causa erro de execução. Se você retirar o # e executar print(clerigo.estus), ocorrerá um AttributeError, porque estus é um atributo privado da classe MortoVivo e não pode ser acessado diretamente dessa forma. Para consultar seu valor, utilize clerigo.get_estus(). 
+
+
+ RELATORIO DE APRENDIZAGEM:
+ Bom, eu perguntei porque realmente estava em dúvida e queria entender completamente o problema, ela solucionou de imediato o problema e eu consegui entender perfeitamente junto com o que vi nos slides
+ Aprendi e entendi melhor como funciona o encapsulamento e por que não posso acessar diretamente um atributo privado.
